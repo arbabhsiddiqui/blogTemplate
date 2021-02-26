@@ -1,0 +1,76 @@
+$primary: #ff4545;
+$base-color: #fff;
+$text-color: #222;
+$grey1: #3a3b3c;
+$grey2: #828282;
+$bg-color:#F9F9F9;
+
+
+//-------------globally defined classes-------------------------------
+
+
+h1 {
+	font-weight: 600;
+}
+h2 {
+	font-weight: 900 !important;
+	font-size: 35px !important;
+}
+h3 {
+	font-weight: 600;
+}
+h4 {
+	font-weight: 600;
+}
+h5 {
+	font-weight: 600;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+li {
+	list-style: none;
+}
+.container {
+	max-width: 114rem;
+	margin: 0 auto;
+}
+.d-flex {
+	display: flex;
+	align-items: center;
+}
+
+
+
+.section {
+	padding: 6rem 0 5rem 0;
+	.title {
+		text-align: center;
+		margin-bottom: 5rem;
+		h2 {
+			font-size: 3rem;
+			font-weight: 400;
+			margin-bottom: 1.5rem;
+		}
+		span {
+			color: $grey2;
+		}
+	}
+}
+
+
+input{
+	&:focus{
+		outline: none !important;
+	}
+}
+
+
+.mt-100{
+	margin-top: 100px !important;
+}
+
+.mt-50{
+	margin-top: 50px !important;
+}
